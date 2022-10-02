@@ -16,7 +16,41 @@ nav {
 }
 
 /* -------------------------------------------- */
-/* tady piš svoje CSS */
+body{
+	--vyska: 10vh;
+	margin: 0;
+}
+
+header{
+	min-height: var(--vyska);
+	padding:10px;
+}
+
+.main{
+	display:flex;
+	min-height: 80vh
+}
+
+article{
+	flex-grow: 3;
+	padding:10px;
+
+}
+
+aside{
+	flex-grow: 1;
+	padding:10px;
+}
+
+nav{
+	flex-grow: 1;
+	padding:10px;
+}
+footer{
+	min-height: var(--vyska);
+	padding:10px;
+}
+
 /* -------------------------------------------- */
 
 
